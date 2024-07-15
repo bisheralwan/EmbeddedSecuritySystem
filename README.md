@@ -1,10 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/5bxZGXM7)
-### README
-### PiGuardian Project (SYSC 3010)
-### Group number: L2-G6
-### Students: Bisher Abou-Alwan, Hamdiata Diakite, Alizée Drolet, Yousef Hammad
-### TA: Oly Papillon
-
 ![frontImg](https://github.com/SYSC3010-W24/sysc3010-project-l2-g6/assets/91440838/f67d83c3-db14-499f-af1a-356b5bb97110)
 
 ___
@@ -24,8 +17,6 @@ PiGuardian aimed to boost the uptake of home security systems through the develo
    - Notification:
         - This directory contains file that handles the email noticiation system.
         - The file notifcations.py file contains a single function that sends a email from the piguardian email we created.
-   - WeeklyUpdates:
-     - This directory includes weekly individual reports from week 3 to week 12 of the course.
    - api:
      - This directory is split up into 2 main parts: backend and frontend.
      - The backend part contains the script controller.py which is used to communicate with the firebase data to pull and push data from there.
@@ -34,7 +25,7 @@ PiGuardian aimed to boost the uptake of home security systems through the develo
    - database:
      - This directory is used for all communication with the database.
      - The script firestore_client.py contains all the functions necessary to to extract and put data from the firebase such as getting user attributes, adding data, and much more.
-     - The script firebase.py is also similar to the firestore_client.py script except that this one only deals with the real-time database. This script is used to extract the door lock information, and registering faces. Both these functions deal with the real-time database. 
+     - The script firebase.py is also similar to the firestore_client.py script except that this one only deals with the real-time database. This script is used to extract the door lock information, and registering faces. Both these functions deal with the real-time            database. 
    - person_detection
      - This directory handles the person_detection, proximity sensing, and lighting control of the project.
      - Includes test code for end to end testing, person detection testing, and lighting control testing.
