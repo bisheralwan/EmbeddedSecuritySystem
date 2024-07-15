@@ -1,1 +1,1 @@
-
+from .notifications import send_email;
